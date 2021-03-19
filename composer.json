@@ -1,0 +1,28 @@
+{
+    "name": "hiboutik/oauth",
+    "description": "Hiboutik OAuth client",
+    "type": "library",
+    "keywords": ["hiboutik", "hiboutikoauthclient", "oauth"],
+    "homepage": "https://www.hiboutik.com/",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Hiboutik",
+            "email": "contact@hiboutik.com",
+            "homepage": "https://www.hiboutik.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+      "email": "contact@hiboutik.com"
+    },
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hiboutik\\": "src/Hiboutik/"
+        }
+    }
+}
